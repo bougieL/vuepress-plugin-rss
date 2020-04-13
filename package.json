@@ -1,0 +1,30 @@
+{
+  "name": "vuepress-plugin-rss-feed",
+  "version": "0.0.12",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Bougie",
+    "email": "bougie.liu@qq.com",
+    "url": "https://www.bougieblog.cn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bougieL/vuepress-plugin-rss.git"
+  },
+  "homepage": "https://github.com/bougieL/vuepress-plugin-rss",
+  "keywords": [
+    "vuepress",
+    "plugin",
+    "rss",
+    "feed"
+  ],
+  "devDependencies": {
+    "prettier": "^2.0.4"
+  },
+  "dependencies": {
+    "@vuepress/shared-utils": "^1.4.0",
+    "cheerio": "^1.0.0-rc.3",
+    "rss": "^1.2.2"
+  }
+}
