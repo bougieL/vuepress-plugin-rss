@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-rss-feed",
-  "version": "0.0.12",
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "author": {
