@@ -1,6 +1,6 @@
 # vuepress-plugin-rss-feed
 
-Generate `rss.xml` file with `content:encoded`
+Generate `rss.xml` file with `content:encoded` for rss client pretty preview. Reference https://www.bougieblog.cn/rss.xml for example.
 
 ## Usage
 

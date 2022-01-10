@@ -63,7 +63,9 @@ module.exports = (
                   .find('img')
                   .each(function () {
                     const src = $(this).attr('src')
-                    $(this).attr('src', hostname + src)
+                    if (!/^(https?:)?\/\//.test(src)) {
+                      $(this).attr('src', hostname + src)
+                    }
                   })
                 return $(selector).html()
               })(),
